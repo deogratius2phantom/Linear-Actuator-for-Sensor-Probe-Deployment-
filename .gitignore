@@ -1,0 +1,33 @@
+# Arduino build artefacts
+build/
+*.hex
+*.elf
+*.bin
+*.map
+
+# Arduino IDE temp files
+*.bak
+*.tmp
+
+# KiCad backups and outputs
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache
+*.000
+gerbers/
+
+# FreeCAD backups
+*.FCBak
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
